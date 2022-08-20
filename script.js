@@ -29,3 +29,15 @@ btnTranslate.addEventListener("click",() =>{
     .then(data => toText.value = data.responseData.translatedText);
 });
 
+exchange.addEventListener("click", () => {
+
+    let text = fromText.value;
+    fromText.value = toText.value;
+    toText.value = text;
+
+    let lang = fromLang.value;
+    fromLang.value = toLang.value;
+    toLang.value = lang;
+
+});
+
