@@ -27,6 +27,22 @@ body{
 
 }
 
+.controls , .controls li , .icons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.controls .icons span {
+    width: 40px;
+    color: #7F8487;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.controls .icons{
+    width: 35%;
+}
 
 ul{
     list-style: none;
