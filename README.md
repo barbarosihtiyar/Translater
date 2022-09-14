@@ -1,5 +1,5 @@
 # TRANSLATER
-*Translater is a Javascript-based web application. This Translater application is supported with more than 50 languages. The translation from the language the user wants to the language they want is supported with text and voice.*
+* Translater is a Javascript-based web application. This Translater application is supported with more than 50 languages. The translation from the language the user wants to the language they want is supported with text and voice.*
 
 # Features
 - More than 50 language options
